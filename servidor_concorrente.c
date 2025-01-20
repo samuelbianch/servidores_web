@@ -51,7 +51,7 @@ int main() {
     }
 
     
-    if (listen(server_fd, 9) < 0) {
+    if (listen(server_fd, 3) < 0) {
         perror("Falha ao escutar");
         close(server_fd);
         exit(EXIT_FAILURE);
